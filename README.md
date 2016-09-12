@@ -1,2 +1,1 @@
-# Stylish-Styles
-Styles for Stylish plugin
+Стили для сайтов, применяемые в плагине Stylish.
