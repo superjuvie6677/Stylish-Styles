@@ -1,0 +1,50 @@
+/* только логин */
+.dobro > .orng{
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	filter: blur(3px);
+}
+
+/* добро пожаловать */
+.dobro{
+	/**/
+}
+
+/* помощь и выход */
+td[width="190"],nowrap{
+	display: none;
+}
+
+/* шапка 160px */
+table[height="160"]{
+	display: none;
+}
+
+/* левая боковая колонка */
+td[rowspan="2"].colum{
+	display:none;
+}
+
+/* правая боковая колонка */
+td[rowspan="2"].colum_right{
+	display: none;
+}
+
+/* подвал */
+td[valign="bottom"]{
+	display: none;
+}
+.bot_left{
+    background:#FFF;
+}
+
+/* верхнее меню */
+.tm{
+	display: none;
+}
+
+
+/* комменты */
+table[width="100%"][border="0"][align="center"].tbl_stat:nth-child(n+6){
+	display: none;
+}
