@@ -4,11 +4,6 @@
 /*скрыть логин (во фрейме) */
 #kt_start_frame > .dobro > .orng{display:none}
 
-/* добро пожаловать */
-.dobro{
-	/**/
-}
-
 /* помощь и выход */
 td[width="190"],nowrap{
 	display: none;
