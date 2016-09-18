@@ -1,9 +1,8 @@
-/* только логин */
-.dobro > .orng{
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	filter: blur(3px);
-}
+/*скрыть логин (в странице) */
+.dobro > .orng{display:none}
+
+/*скрыть логин (во фрейме) */
+#kt_start_frame > .dobro > .orng{display:none}
 
 /* добро пожаловать */
 .dobro{
