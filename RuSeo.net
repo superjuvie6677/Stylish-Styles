@@ -1,3 +1,4 @@
+'''css
 @namespace url(http://www.w3.org/1999/xhtml);
 /**********************************/
    /*шапка без рекламы и с прокруткой*/
@@ -118,3 +119,4 @@ a[href='https://promoheads.com/ru/']{display:none !important}
    .icon-ucp{height:44px !important}
    .linklist.rightside{top:26px !important;left:0 !important;border-top:solid 1px#BBB !important}
 }
+'''
