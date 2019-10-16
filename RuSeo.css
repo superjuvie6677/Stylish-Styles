@@ -1,4 +1,4 @@
-/**********************************/
+   /**********************************/
    /*шапка без рекламы и с прокруткой*/
    /**********************************/
   
@@ -120,7 +120,7 @@ a[href='https://promoheads.com/ru/']{display:none !important}
 
 /* без спонсоров */
 .sponsor{display:none}
-noindex{display:none}
+/*noindex{display:none}*/
 #block_2_h{display:none}
 /* подтяжка сайдбара */
 #block_3_h{margin-top:-260px}
