@@ -1,0 +1,5 @@
+/* avito */
+.avito-ads-container{display:none}
+
+/* coinmarketcap.com */
+iframe{display:none}
