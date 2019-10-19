@@ -2,7 +2,6 @@
 #Tampermonkey для скриптов https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
 #Anti-Adblock Killer для антирекламы https://reek.github.io/anti-adblock-killer/#userscript
 
-
 /* фильтры для адблок плюс */
 
 mycryptohub.xyz/*/libs/check.js
@@ -35,3 +34,18 @@ body > div.container-fluid > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-pu
 body > div.container-fluid > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3.bg-black.text-black > blockquote{display:none}
 body > div.container-fluid > div:nth-child(3) > div:nth-child(2){display:none}
 body > div.footer.text-center.col-xs-12.bg-black.text-black{display:none}
+
+/* fautsy.com */
+
+html{position:absolute;top:-200px}
+body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-6.col-md-3.col-md-pull-6 > center > div{display:none}
+body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3 > font{display:none}
+body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3 > center:nth-child(16) > input{display:none}
+body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3 > center:nth-child(23) > div{display:none}
+body > center:nth-child(4) > div:nth-child(3){display:none}
+body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3 > center:nth-child(18) > div{display:none}
+body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3 > center:nth-child(11) > input{display:none}
+body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3 > center:nth-child(17) > input{display:none}
+body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3 > center:nth-child(1) > p{display:none}
+body{background:#000}
+#myModal > div{position:relative;top:290px}
