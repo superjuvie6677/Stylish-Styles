@@ -1,0 +1,11 @@
+#FreeStyler плагин для накатывания
+
+/* bitcoinky.com */
+
+body{margin:-60px auto;width:666px;}
+#faucet > div{min-width:600px}
+#body > div.container-fluid.no-padding.no-margin > div.container.mt-4{display:none}
+#footer > div:nth-child(2) > div{display:none}
+#body > div:nth-child(17){display:none}
+
+/* claimbitco.com */
