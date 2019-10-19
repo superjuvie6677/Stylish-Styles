@@ -12,10 +12,8 @@ body{margin:-60px auto;width:666px;}
 
 /* claimbitco.com */
 
-html{background:#000}
-body > div.container-fluid > div:nth-child(2){background:#000}
-body{position:absolute;top:-900px}
+body > nav{display:none}
+body > div.container-fluid > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3.bg-black.text-black > div:nth-child(1) > div > img{display:none}
 body > div.container-fluid > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3.bg-black.text-black > blockquote{display:none}
-body > div.footer.text-center.col-xs-12.bg-black.text-black{display:none}
 body > div.container-fluid > div:nth-child(3) > div:nth-child(2){display:none}
-#recent-payouts{display:none}
+body > div.footer.text-center.col-xs-12.bg-black.text-black{display:none}
