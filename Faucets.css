@@ -49,3 +49,14 @@ body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col
 body > center:nth-child(3) > div > div:nth-child(2) > div.col-xs-12.col-md-6.col-md-push-3 > center:nth-child(1) > p{display:none}
 body{background:#000}
 #myModal > div{position:relative;top:290px}
+
+/* starbits.io */
+
+html{background:#000;}
+body{margin:-205px auto;background:#000;}
+body > table:nth-child(8){display:none}
+body > table:nth-child(9){display:none}
+body > table:nth-child(10){display:none}
+body > table:nth-child(11){display:none}
+#sticky-banner-R6C1MIP3KS8CB{display:none}
+
