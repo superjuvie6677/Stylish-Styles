@@ -2,6 +2,24 @@
 #Tampermonkey для скриптов https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
 #Anti-Adblock Killer для антирекламы https://reek.github.io/anti-adblock-killer/#userscript
 
+
+/* фильтры для адблок плюс */
+
+mycryptohub.xyz/*/libs/check.js
+http://crypto-fun.cf/*/libs/check.js
+https://cdnjs.cloudflare.com/ajax/libs/blockadblock/3.2.1/blockadblock.js
+||bitcoincasinomed.com/system/attachment_medium_contents/attachments/000/001/677/original/en-300x250.gif?1557858109
+http://www.fautsy.com/libs/check.js
+https://i-bits.io/libs/check.js
+http://www.gobits.io/js/site.js
+http://www.claimbits.io/js/site.js
+http://www.fautsy.com/js/site.js
+http://www.claimbits.io/libs/check.js
+http://claimbitco.com/libs/check.js
+http://www.gobits.io/libs/check.js
+
+/* стили */
+
 /* bitcoinky.com */
 
 body{margin:-60px auto;width:666px;}
