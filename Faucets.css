@@ -14,6 +14,7 @@ gobits.io
 claimbits.io
 claimfreecoins.io/free-bitcoin/
 silverfaucet.co
+queenfaucet.website
 
 /* фильтры для адблок плюс */
 
@@ -133,3 +134,48 @@ iframe {display: none!important}
 #content > div > div > div.col-md-3.col-md-pull-9 {padding-left: 0!important; padding-right: 0!important}
 #content > div > div > div.col-md-9.col-md-push-3 {padding-right: 5px!important; padding-left: 5px!important}
 .panel-body {margin: 0!important; padding: 5px!important}
+
+/* queenfaucet.website (скрипт) */
+
+// ==UserScript==
+// @name         queenfaucet.website
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://queenfaucet.website/*
+// @grant        none
+// @require http://code.jquery.com/jquery-latest.min.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    //списко кошельков (переменные настроек)
+    var btc='13uN8ZRqKNmteoZR3acSr1faoT4kDCeg6o';
+    var eth='0x86ae7b426dda2b8dd217a209b056d6f0d3bfd593';
+    var ltc='LPsLbahGygEWrchtSYN9t34xzk2JByf7vS';
+    var doge='DQn1DJ1mLZGJZQQbpz5Whb2DfPswruT8RW';
+    var bch='12Z2h9QWQvboQRsxMX3yB7B55je1GnY73C';
+    var zec='t1eP1hdsyQemVkEArZR5hKugH5pqyJGqEif';
+    var dash='XcMGGBDFUKNZY7DcxKu4pV1aP2fPYoMwK1';
+    var ppc='PCXMK3aBQbMW2z6UHUcgZpZwY5XWmGRXWN';
+    var pot='PUWFkfgALdUFcKjEiSUyPNp6QNXDJH5Gn2';
+
+    //заполнять поле кошельком (в зависимости от страницы)
+    var link=window.location.pathname;
+    if(link=='/btc/'){$('input[name="address"]').val(btc);}
+    if(link=='/eth/'){$('input[name="address"]').val(eth);}
+    if(link=='/ltc/'){$('input[name="address"]').val(ltc);}
+    if(link=='/dux/'){$('input[name="address"]').val(doge);}
+    if(link=='/bch/'){$('input[name="address"]').val(bch);}
+    if(link=='/zec/'){$('input[name="address"]').val(zec);}
+    if(link=='/dash/'){$('input[name="address"]').val(dash);}
+    if(link=='/ppc/'){$('input[name="address"]').val(ppc);}
+    if(link=='/pot/'){$('input[name="address"]').val(pot);}
+
+
+    //кликать по кнопке log in
+    $('#faucet > div.container-fluid.no-padding.no-margin > form > input.btn.btn-block.btn-primary.text-uppercase').click()
+
+})();
