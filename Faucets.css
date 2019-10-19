@@ -60,3 +60,62 @@ body > table:nth-child(10){display:none}
 body > table:nth-child(11){display:none}
 #sticky-banner-R6C1MIP3KS8CB{display:none}
 
+/* faucethub.io */
+
+html{background:#FFF;margin-bottom:-86px}
+body{position:relative;top:-86px}
+.header-upper {display: none!important}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(1) > div > div > div > div {display: none!important}
+#content-below {display: none!important}
+/* before footer */
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(6) > div > small {display: none!important}
+/**/
+#footer {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div.panel.panel-default.panel-chat-ad.margin-top-small {display: none!important}
+/* Menu → Stats */
+#myTab > li:nth-child(2) > a {display: none!important}
+#myTab > li:nth-child(6) > a {display: none!important}
+/* Chat → Useless languages */
+#content > div > div > div.col-md-3.col-md-pull-9 > div:nth-child(1) > ul > li:nth-child(3) > a > span.flag-icon.flag-icon-es {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div:nth-child(1) > ul > li:nth-child(4) > a > span.flag-icon.flag-icon-sa {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div:nth-child(1) > ul > li:nth-child(5) > a > span.flag-icon.flag-icon-pt {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div:nth-child(1) > ul > li:nth-child(6) > a > span.flag-icon.flag-icon-ph {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div:nth-child(1) > ul > li:nth-child(7) > a > span.flag-icon.flag-icon-in {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div:nth-child(1) > ul > li:nth-child(8) > a > span.flag-icon.flag-icon-id {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div:nth-child(1) > ul > li:nth-child(9) > a {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div:nth-child(1) > ul > li:nth-child(11) > a {display: none!important}
+/* Wallet Balances */
+/*#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(3) > div{display:none}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(4) > div{display:none}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(10) > div{display:none}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(11) > div{display:none}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(12) > div{display:none}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(14) > div{display:none}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(15) > div{display:none}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(16) > div{display:none}
+/* под чатом */
+#content > div > div > div.col-md-3.col-md-pull-9 > div.panel.panel-default.panel-chat-ad.margin-top-small > div.panel-heading {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div.panel.panel-default.panel-chat-ad.margin-top-small > div.panel-body {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div.panel.panel-default.panel-chat-ad.margin-top-small > div.panel-footer {display: none!important}
+/* Hey */
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(3) > div > div {display: none!important}
+/* Today's Stats */
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(5) {display: none!important}
+/* Today's Payouts */
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(2) > div:nth-child(6) > div > div.title-divider.margin-top-medium > h4 {display: none!important}
+/* Forum */
+#navigation > div > div.header > div > div > div.navbar-collapse.collapse > ul > li:nth-child(1) > a {position: relative!important; top: 60px!important}
+/* Exchange */
+#navigation > div > div.header > div > div > div.navbar-collapse.collapse > ul > li:nth-child(2) > a {position: relative!important; top: 60px!important}
+/* ads */
+iframe {display: none!important}
+#content > div > div > div.col-md-9.col-md-push-3 > div > div:nth-child(1) > div > div.ad_position {display: none!important}
+#content > div > div > div.col-md-3.col-md-pull-9 > div.ad_position {display: none!important}
+/* chat size */
+#content > div > div > div.col-md-3.col-md-pull-9 > div.panel.panel-default.chat-panel-wrap {}
+#content > div > div > div.col-md-3.col-md-pull-9 > div.panel.panel-default.chat-panel-wrap > div.chat.panel-body.tab-content {}
+#content > div > div > div.col-md-3.col-md-pull-9 > div.panel.panel-default.chat-panel-wrap > div.panel-footer.chat-footer {}
+#content > div {width: 100%!important}
+#content > div > div > div.col-md-3.col-md-pull-9 {padding-left: 0!important; padding-right: 0!important}
+#content > div > div > div.col-md-9.col-md-push-3 {padding-right: 5px!important; padding-left: 5px!important}
+.panel-body {margin: 0!important; padding: 5px!important}
