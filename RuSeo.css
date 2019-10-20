@@ -126,3 +126,6 @@ a[href='https://promoheads.com/ru/']{display:none !important}
 #block_3_h{margin-top:-260px}
 #block_4_h{margin-top:-260px}
 #block_5_h{margin-top:-260px}
+
+/* баннер сверху на главной */
+#wrap > noindex:nth-child(3) > div{display:none !important}
